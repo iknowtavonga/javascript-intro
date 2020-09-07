@@ -38,5 +38,9 @@ document.write('<br><br>');
 //random number generator. Random generator only generates numbers between 0 and 1
 document.write(Math.random());
 document.write('<br><br>');
-document.write(Math.round(Math.random() * 10))
+
+//rounding and multiplying random numbers
+document.write(Math.round(Math.random() * 10));
+document.write('<br><br>');
+
 document.write('<hr>');
