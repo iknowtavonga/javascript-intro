@@ -17,6 +17,7 @@ const x = null;
 const y = undefined;
 let z; // This is another way of making an undefined variable
 
+console.log(name[name.length - 2]);
 console.log(typeof isCool); //typeof is used to see what type of variable it is
 
 //Concatenation vs template strings
