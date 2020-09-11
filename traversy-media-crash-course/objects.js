@@ -45,3 +45,7 @@ const todos = [
 ];
 
 console.log(todos[1].text); // targeting a specific object property within your array
+
+// Converting the array data to JSON
+const todoJSON = JSON.stringify(todos);
+console.log(todoJSON);
