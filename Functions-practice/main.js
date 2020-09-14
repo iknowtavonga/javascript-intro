@@ -18,3 +18,8 @@ function volRect(length, breadth, height){
 
 volume = volRect(10, 5, 6);
 console.log(volume + unit);
+
+// Volume of a cylinder
+function volCyl(radius, height){
+    return Math(PI)
+}
