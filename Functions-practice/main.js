@@ -4,7 +4,7 @@ var unit = ' cm cubed'
 
 // This function contains the formular
 function volCube(side){
-    return side * side * side;
+    return Math.pow(side, 3);
 }
 
 // The result is passed here with the values
@@ -25,3 +25,8 @@ function volCyl(radius, height){
 }
 volume = volCyl(6, 9);
 console.log(volume + unit);
+
+//Calculate function for input boxes
+function calculate(){
+    
+}
