@@ -21,5 +21,7 @@ console.log(volume + unit);
 
 // Volume of a cylinder
 function volCyl(radius, height){
-    return Math(PI)
+    return Math.round(Math.PI * Math.pow(radius, 2) * height);
 }
+volume = volCyl(6, 9);
+console.log(volume + unit);
