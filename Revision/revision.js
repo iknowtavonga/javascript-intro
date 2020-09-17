@@ -9,5 +9,11 @@ let spouse = null;
 console.log(`My name is ${firstName} ${surname}. I am ${age} years old.\nI have ${siblings} siblings.`);
 
 // Arrays
-const human = [firstName, surname, age];
+const human = [
+    ['Tavonga','Karimanzira', 20], 
+    ['Mandla', 'Zandile', 19], 
+    ['Esethu', 'Zandile', 22], 
+    ['Sibusiso', 'Nkhathi', 16],
+    ['John', 'Maltaf',11]
+];
 console.log(human);
