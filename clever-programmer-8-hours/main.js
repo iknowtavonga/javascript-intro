@@ -27,3 +27,10 @@ function greeting(yourName){
 
 //var name = prompt('What is your name?');
 //greeting(name);
+
+var loopNum = 0;
+
+while(loopNum < 100){
+    loopNum += 1;
+    console.log(loopNum);
+}
