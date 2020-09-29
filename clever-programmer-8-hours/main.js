@@ -52,21 +52,33 @@ for (let numLoop = 0; numLoop <= 100; numLoop++){
 */
 
 // DATA TYPES
-let yourAge = 19; // number
-let yourName = 'Bob'; // string
-let trust = false; // Boolean
-let random; // undefined
-let nothing = null; // null
+let yourAge = 19;               // number
+let yourName = 'Bob';           // string
+let trust = false;              // Boolean
+let random;                     // undefined
+let nothing = null;             // null
 
 let name = {
     first: 'Bob', 
     last: 'Belcher'
-}; // object
+};                              // object
 
 let groceries = [
     'juice',
     'ham',
     'pie',
     'bread'
-]; // array
+];                              // array
+
+// Strings in Js, common METHODS
+let oneFruit = 'avocado';
+let twoFruits = 'banana \napple';                   // New line escape character \n
+
+console.log(oneFruit.length);                       // Length of a string
+console.log(twoFruits);
+console.log(oneFruit.slice(0,3));                   // Slicing a string, this shows the first 3 characters
+console.log(oneFruit.replace('cado', 'napple'));    // Replacing characters in a string with other characters
+console.log(oneFruit.toUpperCase());
+console.log(oneFruit.toLowerCase());
+console.log(oneFruit[1]);                           // Showing a specific character
 
