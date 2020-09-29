@@ -28,9 +28,23 @@ function greeting(yourName){
 //var name = prompt('What is your name?');
 //greeting(name);
 
+/*                  WHILE LOOPS. 
+
+This while loop will run through this variable until the statement is not true
+anymore
+
 var loopNum = 0;
 
 while(loopNum < 100){
     loopNum += 1;
     console.log(loopNum);
+}
+*/
+
+/*      FOR LOOPS 
+
+This for loop is exactly the same as the while loop above.
+*/
+for (let numLoop = 0; numLoop <= 100; numLoop++){
+    console.log(numLoop)
 }
