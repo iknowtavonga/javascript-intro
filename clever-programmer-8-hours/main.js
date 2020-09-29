@@ -82,3 +82,10 @@ console.log(oneFruit.toUpperCase());
 console.log(oneFruit.toLowerCase());
 console.log(oneFruit[1]);                           // Showing a specific character
 
+
+//      ARRAYS
+let genre = ['rap', 'hip hop', 'pop', 'rnb', 'soul', 'gospel'];
+
+for (let index = 0; index < genre.length; index++){   // Looping throug an array
+    console.log(genre[index]);
+}
