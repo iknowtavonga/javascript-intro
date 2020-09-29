@@ -44,7 +44,29 @@ while(loopNum < 100){
 /*      FOR LOOPS 
 
 This for loop is exactly the same as the while loop above.
-*/
+
 for (let numLoop = 0; numLoop <= 100; numLoop++){
     console.log(numLoop)
 }
+
+*/
+
+// DATA TYPES
+let yourAge = 19; // number
+let yourName = 'Bob'; // string
+let trust = false; // Boolean
+let random; // undefined
+let nothing = null; // null
+
+let name = {
+    first: 'Bob', 
+    last: 'Belcher'
+}; // object
+
+let groceries = [
+    'juice',
+    'ham',
+    'pie',
+    'bread'
+]; // array
+
