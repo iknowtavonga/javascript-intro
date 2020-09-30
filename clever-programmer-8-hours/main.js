@@ -116,3 +116,9 @@ charts.sort(function(a,b){                          // Sorting a numeric array i
     return b - a;
 });
 console.log(charts);
+
+let emptyArray = [];
+for(let num = 0; num <= 10; num++){                 // Looping through an array and adding items
+    emptyArray.push(num);
+};
+console.log(emptyArray);
