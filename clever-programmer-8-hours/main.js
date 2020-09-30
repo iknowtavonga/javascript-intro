@@ -104,3 +104,4 @@ console.log(art);
 
 console.log(art.reverse());                         // Reversing an array
 console.log(art.slice(0, 4));                       // Slicing an array... only showing the first 4 items
+console.log(genre.sort());
