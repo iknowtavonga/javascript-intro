@@ -122,3 +122,26 @@ for(let num = 0; num <= 10; num++){                 // Looping through an array 
     emptyArray.push(num);
 };
 console.log(emptyArray);
+
+//                      OBJECTS IN JAVASCRIPT
+
+let student = {
+    first: 'Louise', 
+    last: 'Belcher',
+    grade: 5,
+    IQ: 180,
+    studentInfo: function(){                        // These are the basics of how Object Oriented Programming is done
+        return `${this.first} ${this.last} has an IQ of ${this.IQ}`;
+    }                                                
+};
+
+console.log(student.first);                         // Viewing a specific value in an object
+console.log(student['first']);                      // Viewing a specific value in an object
+
+student.IQ = 192;                                   // Changing the value of an item in an array
+console.log(student.IQ);
+
+student.grade ++;                                   // Incrementing the value of a number
+console.log(student.grade);
+
+console.log(student.studentInfo());                 // This is how we view the function in the object
