@@ -86,6 +86,21 @@ console.log(oneFruit[1]);                           // Showing a specific charac
 //      ARRAYS
 let genre = ['rap', 'hip hop', 'pop', 'rnb', 'soul', 'gospel'];
 
-for (let index = 0; index < genre.length; index++){   // Looping throug an array
+for (let index = 0; index < genre.length; index++){ // Looping through an array
     console.log(genre[index]);
 }
+
+//      ARRAY COMMON METHODS
+console.log(genre.toString());                      // Converts an array into a string
+console.log(genre.join(' @'));                      // Joins array content with characters
+genre[genre.length] = 'amapiano';                   // This is the same as push
+console.log(genre);
+genre.unshift('rock');                              // Adds a new item at the beginning of the array
+console.log(genre);
+
+let artists = ['beyonce', 'riri', 'young thug', 'dababy'];
+let art = genre.concat(artists);                    // Combining 2 arrays
+console.log(art);
+
+console.log(art.reverse());                         // Reversing an array
+console.log(art.slice(0, 4));                       // Slicing an array... only showing the first 4 items
