@@ -104,4 +104,15 @@ console.log(art);
 
 console.log(art.reverse());                         // Reversing an array
 console.log(art.slice(0, 4));                       // Slicing an array... only showing the first 4 items
-console.log(genre.sort());
+console.log(genre.sort());                          // Sorting an array of strings alphabetically
+
+let charts = [2, 45, 5, 93, 27, 109, 90, 1, 32, 87];
+charts.sort(function (a,b){                         // Sorting a numeric array in ascending order
+    return a - b;
+});
+console.log(charts);
+
+charts.sort(function(a,b){                          // Sorting a numeric array in descending order
+    return b - a;
+});
+console.log(charts);
